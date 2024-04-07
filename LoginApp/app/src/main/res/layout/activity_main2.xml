@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <!-- Ввод вероятности события A -->
+    <TextView
+        android:id="@+id/textViewAProbability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вероятность события A:"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextAProbability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите вероятность события A (0-1)"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <!-- Ввод количества испытаний -->
+    <TextView
+        android:id="@+id/textViewTrials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество испытаний:"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextTrials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите количество испытаний"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Кнопка моделирования -->
+    <Button
+        android:id="@+id/btnSimulate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделировать"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Отображение результатов -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/textViewSimulationResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="16sp"/>
+
+    </ScrollView>
+
+    <!-- Кнопка Скачать -->
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Скачать"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

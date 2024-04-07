@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Метод усечения"
+        android:onClick="goToFirstActivity" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Метод вычетов"
+        android:onClick="goToSecondActivity" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Метод суммирования"
+        android:onClick="goToThirdActivity" />
+
+    <Button
+        android:id="@+id/fouthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Метод возмущения"
+        android:onClick="goToFouthActivity" />
+
+</LinearLayout>

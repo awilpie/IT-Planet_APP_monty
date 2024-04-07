@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование случайных чисел"
+        android:onClick="goToFirstActivity" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование случайных событий"
+        android:onClick="goToSecondActivity" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование непрерывных случайных величин"
+        android:onClick="goToSecondActivity" />
+    <Button
+        android:id="@+id/forthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование дискретных случайных величин"
+        android:onClick="goToSecondActivity" />
+    <Button
+        android:id="@+id/fifthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование случайных процессов"
+        android:onClick="goToSecondActivity" />
+    <Button
+        android:id="@+id/sixthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование случайных потоков"
+        android:onClick="goToSecondActivity" />
+
+
+
+</LinearLayout>

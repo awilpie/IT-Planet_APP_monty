@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="social_login">Social Login</string>
+    <string name="edtComparisonValue">Введите значение для сравнения</string>
+    <string name="btnGenerate">Генерировать и подсчитать</string>
+    <string name="about_info">Это примерная информация о вашей программе. Вы можете здесь описать её функциональность, особенности, версию и т. д.</string>
+</resources>

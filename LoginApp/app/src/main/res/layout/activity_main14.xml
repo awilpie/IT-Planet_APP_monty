@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Основные понятия модели и моделирования"
+        android:onClick="goToFirstActivity" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование случайных чисел"
+        android:onClick="goToSecondActivity" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование случайных событий"
+        android:onClick="goToThirdActivity" />
+
+    <Button
+        android:id="@+id/fouthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование непрерывных случайных величин"
+        android:onClick="goToFouthActivity" />
+
+    <Button
+        android:id="@+id/fiftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моделирование специальных непрерывных распределений"
+        android:onClick="goToFiftActivity" />
+
+</LinearLayout>

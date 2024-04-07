@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Параметр a:"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите параметр a"
+        android:layout_below="@id/textViewA"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Параметр b:"
+        android:layout_below="@id/editTextA"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите параметр b"
+        android:layout_below="@id/textViewB"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewModulus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Параметр m:"
+        android:layout_below="@id/editTextB"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextModulus"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите параметр m"
+        android:layout_below="@id/textViewModulus"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewTrials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество испытаний:"
+        android:layout_below="@id/editTextModulus"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextTrials"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите количество испытаний"
+        android:layout_below="@id/textViewTrials"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сгенерировать"
+        android:layout_below="@id/editTextTrials"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGenerate"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/textViewResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="8dp"/>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Подсчет"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_calculator"
+        android:drawablePadding="8dp"
+        android:onClick="goToFirstActivity" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Лекции"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_lecture"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToSecondActivity" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тесты"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_test"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToThirdActivity" />
+
+    <Button
+        android:id="@+id/fourthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="О программе"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/ic_info"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToFouthActivity" />
+
+</LinearLayout>
